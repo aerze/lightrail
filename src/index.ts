@@ -1,13 +1,15 @@
-import * as express from "express";
+import * as express from 'express';
 
-module Lightrail {
-  export class Core {
-    app: Express.Application;
+export class Core {
+  app: Express.Application;
 
-    constructor(app: Express.Application = express()) {
-      this.app = app;
-    }
+  constructor(app: Express.Application = express()) {
+    this.app = app;
   }
 }
+
+export const Lightrail = {
+  Core
+};
 
 export default Lightrail.Core;
