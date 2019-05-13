@@ -1,6 +1,6 @@
 {
   "name": "lightrail-js",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "An opinionated, minimal web framework extending ExpressJS.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
