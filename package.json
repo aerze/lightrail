@@ -1,0 +1,27 @@
+{
+  "name": "lightrail",
+  "version": "0.0.1",
+  "description": "An opinionated, minimal web framework extending ExpressJS.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aerze/lightrail.git"
+  },
+  "author": "Abby Suarez <abby@mythril.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aerze/lightrail/issues"
+  },
+  "homepage": "https://github.com/aerze/lightrail#readme",
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "express": "^4.16.4"
+  }
+}
