@@ -1,5 +1,5 @@
 {
-  "name": "lightrail",
+  "name": "lightrail-js",
   "version": "0.0.1",
   "description": "An opinionated, minimal web framework extending ExpressJS.",
   "main": "lib/index.js",
